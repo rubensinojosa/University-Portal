@@ -1,2 +1,2 @@
-# Portal_Escolar
-Projeto 33 Codelândia
+# Portal Escolar - School Dashboard
+
