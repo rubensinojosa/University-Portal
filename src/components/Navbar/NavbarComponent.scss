@@ -1,0 +1,44 @@
+
+.container {
+  padding: 0 100px;
+}
+
+.redesociais {
+  color: var(--red)
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.imgNav img {
+  margin-right: 100px;
+}
+
+.navbar .nav-link {
+  margin-right: 20px;
+}
+
+.navbar .nav-link.active {
+  color: var(--red);
+}
+
+@media screen and (max-width: 768px) {
+  .offcanvas-header, .offcanvas-body {
+    background-color: var(--red);
+    color: var(--white);
+
+    i{
+      color: var(--white);
+    }
+  }
+  .container {
+    padding: 0;
+
+    .imgNav {
+      margin-left: 1.5rem;
+    }
+  }
+}

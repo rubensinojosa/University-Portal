@@ -1,0 +1,190 @@
+.CursosComponet {
+
+  h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .Cursos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 38px;
+    grid-row-gap: 38px;
+    padding: 0 150px;
+    margin-bottom: 100px;
+
+    .div1 {
+      grid-area: 1 / 1 / 2 / 2;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div2 {
+      grid-area: 1 / 2 / 2 / 3;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div3 {
+      grid-area: 1 / 3 / 2 / 4;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div4 {
+      grid-area: 1 / 4 / 2 / 5;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div5 {
+      grid-area: 2 / 1 / 3 / 2;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div6 {
+      grid-area: 2 / 2 / 3 / 3;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div7 {
+      grid-area: 2 / 3 / 3 / 4;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .div8 {
+      grid-area: 2 / 4 / 3 / 5;
+      background-color: var(--white200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      p {
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .CursosComponet {
+
+    h3 {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .Cursos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(8, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 1.5rem;
+      padding: 1.5rem;
+
+      .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+      }
+
+      .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+      }
+
+      .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+      }
+
+      .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+      }
+
+      .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+      }
+
+      .div6 {
+        grid-area: 6 / 1 / 7 / 2;
+      }
+
+      .div7 {
+        grid-area: 7 / 1 / 8 / 2;
+      }
+
+      .div8 {
+        grid-area: 8 / 1 / 9 / 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.Contatos {
+  width: 100vw;
+  margin-top: -9.375rem;
+  
+  .title {
+    background-color: var(--red);
+    height: 9.375rem;
+    width: 100%;
+    
+    .title-h3 {
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+}
