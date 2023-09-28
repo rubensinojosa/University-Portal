@@ -6,7 +6,7 @@ const Cursos = () => {
     <>
       <div className="CursosPage">
         <div className="title">
-          <h3>Desenvolvimento de sistemas</h3>
+          <h3>Desenvolvimento de Sistemas</h3>
         </div>
       </div>
       <section className="foto">
@@ -36,14 +36,14 @@ const Cursos = () => {
             <i class="far fa-user"></i>
             <div>
               <p>Coordenação:</p>
-              <p>Iuri Silva</p>
+              <p>Rubens Inojosa</p>
             </div>
           </div>
           <div className="div2-descrição">
             <i class="far fa-hourglass"></i>
             <div>
               <p>Duração:</p>
-              <p>2 anos</p>
+              <p>4 anos</p>
             </div>
           </div>
         </div>

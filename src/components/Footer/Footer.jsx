@@ -13,9 +13,9 @@ const Footer = () => {
             <i class="fas fa-globe-americas"></i>
           </div>
           <div>
-            <span>Rua Codelândia, 1367</span>
+            <span>Rua Lorem Ipsum, 1234</span>
             <br />
-            <span>Cafelândia, SP</span>
+            <span>Lorem Ipsum, PE</span>
           </div>
         </div>
         <div className="divContatos">
@@ -23,7 +23,7 @@ const Footer = () => {
             <i class="fas fa-phone-alt"></i>
           </div>
           <div>
-            <p>+55 14 9999-9999</p>
+            <p>+55 81 9999-9999</p>
           </div>
         </div>
         <div className="divContatos">
@@ -31,17 +31,17 @@ const Footer = () => {
             <i class="far fa-envelope"></i>
           </div>
           <div>
-            <p>centropaulasouza@etec.sp.gov.br</p>
+            <p>xxxxxxxxxxx@com.br</p>
           </div>
         </div>
       </div>
       <div className="div3">
-        <h4>Sobre a Etec Cafelândia</h4>
+        <h4>Sobre Lorem Ipsum</h4>
         <p>
-          Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy
-          Moreira Martins Aguiar se destaca no ensino médio e técnico, recebendo
-          constantemente menções e congratulações em todo o estado de São Paulo.{" "}
-        </p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum        </p>
         <div className="redesociais">
         <i className="fab fa-instagram"></i>
         <i className="fab fa-facebook"></i>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <div className="div4">
         <p>
-          Etec Professora Helcy Moreira Martins Aguiar - 2022 © Todos os
+          Lorem Ipsum - 2023 © Todos os
           direitos reservados.
         </p>
       </div>
